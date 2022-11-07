@@ -9,6 +9,6 @@ This was created because small basic can't do JSON formatting and i wanted to do
 ## How to use
 
 1. Download the code
-2. open the directiory in a terminal and run `npm i` (requires [node.JS](https://nodejs.org/en/))
+2. open the directory in a terminal and run `npm i` (requires [node.JS](https://nodejs.org/en/))
 3. Run `vercel --prod` (requires [vercel cli](https://vercel.com/docs/cli))
 4. Go to [your api name].vercel.app/api?item=[food]
