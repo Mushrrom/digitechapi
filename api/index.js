@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
     //const search = "apple";
     const r = await (
         await 
-          fetch(`https://api.nal.usda.gov/fdc/v1/foods/search?query=${search}&Size=2&api_key=fLLGywDZJksKiBmG0HEUHl1pXEgRXqbIaWdt3IB4`)
+          fetch(`https://api.nal.usda.gov/fdc/v1/foods/search?query=${search}&Size=2&api_key=${KEY}`)
       ).json();
 
     function search_array(array) {
